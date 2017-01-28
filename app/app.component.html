@@ -1,0 +1,8 @@
+<StackLayout>
+    <Label text="Scan a Barcode" class="title"></Label>
+    <Label [text]="scanned"></Label>
+    <Button text="scan!" (tap)="barcode_scan()"></Button>
+    <Label text="UPC API Search Result" class="title"></Label>
+    <Label [text]="upc_result"></Label>
+    <Button text="API lookup test" (tap)="api_access()"></Button>
+</StackLayout>
